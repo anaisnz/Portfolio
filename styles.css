@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-/* Réinitialisation */
 * {
     margin: 0;
     padding: 0;
@@ -98,8 +97,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.4);
     z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
     text-align: center;
 }
 
@@ -184,12 +183,12 @@ body {
 /* Section À propos */
 #apropos {
     padding: 80px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
     text-align: center;
 }
 
 #apropos h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: white;
 }
 
@@ -198,6 +197,11 @@ body {
     font-weight: 400;
     color: #ffffffb5;
     cursor: default;
+    font-size: 3rem;
+}
+
+#intro a{
+    font-size: 1.6rem;
 }
 
 #intro p {
@@ -205,6 +209,7 @@ body {
     font-size: 1.3rem;
     line-height: 1.8;
     color: rgba(255, 255, 255, 0.8);
+    margin-top: 60px;
 }
 
 /* Section compétences */
@@ -212,7 +217,7 @@ body {
 #competences{
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.265);
+    background-color: rgba(0, 0, 0, 0.4);
     color: rgba(255, 255, 255, 0.306);
     align-items: center;
     padding: 60px ;
@@ -281,7 +286,7 @@ body {
     padding: 80px;
     color: rgba(255, 255, 255, 0.591);
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.265);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .row {
@@ -388,7 +393,7 @@ body {
 #contact{
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.265);
+    background-color: rgba(0, 0, 0, 0.4);
     align-items: center;
     padding: 450px;
 }
