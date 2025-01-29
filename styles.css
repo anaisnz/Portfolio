@@ -38,7 +38,26 @@ body {
 video::-webkit-media-controls {
     display: none !important;
     opacity: 0;
+    visibility: hidden;
     pointer-events: none;
+}
+
+video::-webkit-media-controls-enclosure {
+    display: none !important;
+    opacity: 0;
+    visibility: hidden;
+}
+
+video::-webkit-media-controls-panel {
+    display: none !important;
+    opacity: 0;
+    visibility: hidden;
+}
+
+video::-webkit-media-controls-play-button {
+    display: none !important;
+    opacity: 0;
+    visibility: hidden;
 }
 
 #bg {
