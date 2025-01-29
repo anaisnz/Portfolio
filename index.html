@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Anaïs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Poiret+One&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <!-- Vidéo en arrière-plan -->
+    <video class="video" autoplay muted loop playsinline>
+        <source src="https://cdn.pixabay.com/video/2021/07/25/82743-580050767_large.mp4" type="video/mp4">
+    </video>
+
+    <div id="bg"></div>
+
+    <!--JavaScript-->
+    <script type="text/javascript" src="js/particles.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+
+    <nav class="navbar">
+        <img src="img/ankh.png" class="logo">
+        <ul>
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="profil">
+        <div class="main">
+            <h1 class="headings">Bienvenue sur mon <br>Portfolio</h1>
+            <a href="#apropos"><button class="btn">Plus d'infos</button></a>
+        </div>
+    </section>
+
+    <section id="apropos">
+        <h1 class="headings">À propos de moi</h1>
+        <div id="intro">
+            <a>Anaïs Zaytoun</a>
+            <p class="light-effect">
+                Étudiante en 2e année de BTS Services Informatiques aux Organisations, je me consacre pleinement à l’exploration d’un domaine qui me passionne : le développement web.<br>
+
+                Ce domaine ne se limite pas pour moi à une simple compétence technique : c’est un espace où je peux libérer ma créativité, donner vie à des idées et concevoir des solutions qui allient <span class="span">Design  et  Fonctionnalité</span><br>
+                
+                Mon parcours est guidé par une curiosité insatiable et une envie constante d’apprendre. Chaque projet, chaque ligne de code est une opportunité de m’améliorer, de dépasser mes limites et de découvrir de nouvelles perspectives dans cet univers en constante évolution.
+                
+                <br>À travers ce portfolio, je partage avec vous mes réalisations, mes apprentissages et mon envie constante de m’améliorer. </p>
+            </p>
+        </div>
+    </section>
+
+    <section id="competences">
+        <h1 class="headings">Mes compétences</h1>
+        <div class="galerie">
+            <div class="galerie-box">
+                <div class="galerie-info">
+                    <img src="img/idee.png" class="galerie-icon">
+                    <h4>Design UI/UX</h4>
+                    <div class="galerie-img">
+                        <img src="img/figma.png" alt="">
+                        <img src="img/adobexd.png" alt="">
+                        <img src="img/miro.png" alt="">
+                    </div>
+                    <p>Élements visuels<br>Mise en page<br>Interactivité<br>Charte graphique<br>Recherche utilisateur<br>Architecture de l'information<br>Parcours utilisateur<br>Prototypage et tests</p>
+                    <div class="galerie-img-frameworks">
+                    </div>
+                </div>
+            </div>
+            <div class="galerie-box">
+                <div class="galerie-info">
+                    <img src="img/front.png" class="galerie-icon">
+                    <h4>Développement <br> Front-End</h4>
+                    <div class="galerie-img">
+                        <img src="img/html.png" alt="">
+                        <img src="img/css.png" alt="">
+                        <img src="img/js.png" alt="">
+                    </div>
+                    <p>Interface attrayante et intuitive<br>Expérience utilisateur optimale<br>Responsive design</p>
+                    <div class="galerie-img-frameworks">
+                        <img src="img/bootstrap.png" alt="">
+                        <img src="img/tailwindcss.png" alt="">
+                        <img src="img/reactjs.png" alt="">
+                        <img src="img/vuejs.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="galerie-box">
+                <div class="galerie-info">
+                    <img src="img/back.png" class="galerie-icon">
+                    <h4>Développement <br> Back-End</h4>
+                    <div class="galerie-img">
+                        <img src="img/c.png" alt="">
+                        <img src="img/python.png" alt="">
+                        <img src="img/php.png" alt="">
+                        <img src="img/java.png" alt="">
+                        <img src="img/sql.png" alt="">
+                    </div>
+                    <p>Gestion de données<br>Traitement de requêtes<br>Authentification et autorisation<br>Optimisation et performance<br>Integration d'API</p>
+                    <div class="galerie-img-frameworks">
+                        <img src="img/mongodb.png" alt="">
+                        <img src="img/nodejs.png" alt="">
+                        <img src="img/express.js.png" alt="">
+                        <img src="img/laravel.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="galerie-box">
+                <div class="galerie-info">
+                    <img src="img/animation.png" class="galerie-icon">
+                    <h4>Animation <br>2D/3D</h4>
+                    <div class="galerie-img">
+                        <img src="img/clipstudiopaint.png" alt="">
+                        <img src="img/blender.png" alt="">
+                        <img src="img/medibang.png" alt="">
+                    </div>
+                    <p>Tweening<br>Modélisation 3D<br>Rigging & Skinning</p>
+                    <div class="galerie-img-frameworks">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projets">
+        <h1 class="headings">Mes projets</h1>
+        
+            <div class="row">
+                <div class="box">
+                    <div class="flip-card-inner">
+                        <!-- Face avant -->
+                        <div class="flip-card-front">
+                            <img src="img/icone1.png" alt="">
+                            <h1 class="headings">Site interactif</h1>
+                        </div>
+                        <!-- Face arrière -->
+                        <div class="flip-card-back">
+                            <img src="img/icone7.png" alt="">
+                            <a>Projet en cours</a>
+                        </div>
+                </div>
+            </div>
+        
+        <section id ="competence1">
+            <div class="row">
+                <div class="box">
+                    <div class="flip-card-inner">
+                        <!-- Face avant -->
+                        <div class="flip-card-front">
+                            <img src="img/icone2.png" alt="">
+                            <h1 class="headings">Blog</h1>
+                    </div>
+                        <!-- Face arrière -->
+                    <div class="flip-card-back">
+                        <img src="img/icone7.png" alt="">
+                        <a href="https://blog-2-3bas.vercel.app/">Cliquez pour voir</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id ="competence1">
+            <div class="row">
+                <div class="box">
+                    <div class="flip-card-inner">
+                        <!-- Face avant -->
+                        <div class="flip-card-front">
+                            <img src="img/icone3.png" alt="">
+                            <h1 class="headings">Jeu 2D</h1>
+                    </div>
+                        <!-- Face arrière -->
+                    <div class="flip-card-back">
+                        <img src="img/icone7.png" alt="">
+                        <a>Projet en cours</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id ="competence3">
+            <div class="row">
+                <div class="box">
+                    <div class="flip-card-inner">
+                    <!-- Face avant -->
+                     <div class="flip-card-front">
+                        <img src="img/icone4.png" alt="">
+                        <h1 class="headings">Jeu 3D</h1>
+                    </div>
+                    <!-- Face arrière -->
+                     <div class="flip-card-back">
+                        <img src="img/icone7.png" alt="">
+                        <div class="background-container">
+                            <a>Projet en cours</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id ="competence4">
+            <div class="row">
+                <div class="box">
+                    <div class="flip-card-inner">
+                    <!-- Face avant -->
+                     <div class="flip-card-front">
+                        <img src="img/icone5.png" alt="">
+                        <h1 class="headings">Application mobile</h1>
+                    </div>
+                    <!-- Face arrière -->
+                     <div class="flip-card-back">
+                        <img src="img/icone7.png" alt="">
+                        <a>Projet en cours</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- (Le reste de ton code est inchangé) -->
+
+    <section id="contact">
+        <h1>CONTACT</h1>
+        <img src="img/mail.png">
+        <a class="email" href="mailto:anaiszaytoun09@gmail.com">Cliquez ici pour me contacter par mail</a>
+        <a class="tel">Tel : 07 82 90 37 53</a>
+        <img src="img/phone.png">
+        <a class="linkedin" href="https://www.linkedin.com/in/ana%C3%AFs-zaytoun/?originalSubdomain=fr">Linkedin</a>    
+    </section>
+
+</body>
+</html>
