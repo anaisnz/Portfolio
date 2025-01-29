@@ -236,5 +236,21 @@
         <a class="linkedin" href="https://www.linkedin.com/in/ana%C3%AFs-zaytoun/?originalSubdomain=fr">Linkedin</a>    
     </section>
 
+    <script>
+        // Sélectionne la vidéo
+        const video = document.getElementById("video");
+
+        // Essaye de forcer la lecture après le chargement de la page
+        document.addEventListener("DOMContentLoaded", () => {
+            video.play().catch(error => {
+                console.log("La lecture automatique a été bloquée par le navigateur :", error);
+            });
+        });
+
+        // Cache complètement les contrôles sur certains navigateurs
+        video.setAttribute("controls", "false");
+        video.removeAttribute("controls");
+    </script>
+
 </body>
 </html>
