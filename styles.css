@@ -32,12 +32,13 @@ body {
     z-index: -1;
     pointer-events: none; /* Désactive toute interaction avec la vidéo */
     opacity: 0.4;
-    background: url(https://cdn.pixabay.com/video/2021/07/25/82743-580050767_large.mp4);
+    background:url(https://cdn.pixabay.com/video/2021/07/25/82743-580050767_large.mp4);
 }
 
 video::-webkit-media-controls {
     display: none;
 }
+
 
 #bg {
     position: fixed;
