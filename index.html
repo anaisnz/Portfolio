@@ -236,26 +236,5 @@
         <a class="linkedin" href="https://www.linkedin.com/in/ana%C3%AFs-zaytoun/?originalSubdomain=fr">Linkedin</a>    
     </section>
 
-    <script>
-        // Sélectionne la vidéo
-        const video = document.getElementById("bg-video");
-
-        // Essaye de forcer la lecture automatique après le chargement de la page
-        document.addEventListener("DOMContentLoaded", () => {
-            video.play().catch(error => {
-                console.log("Lecture automatique bloquée :", error);
-            });
-        });
-
-        // Supprime les contrôles si jamais ils réapparaissent
-        video.removeAttribute("controls");
-
-        // Empêche les événements utilisateur (clics, taps, etc.)
-        video.addEventListener("click", (event) => {
-            event.preventDefault();
-            event.stopPropagation();
-        });
-    </script>
-
 </body>
 </html>
