@@ -136,6 +136,10 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.227);
     font-size: 1.1rem;
     background-color: rgba(0, 0, 0, 0.39);
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -ms-border-radius: 48px;
+    -o-border-radius: 48px;
 }
 
 .btn::after {
@@ -148,6 +152,10 @@ body {
     left: 0;
     top: 0;
     border-radius: 48px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -ms-border-radius: 48px;
+    -o-border-radius: 48px;
 }
 
 .btn::before {
@@ -165,6 +173,16 @@ body {
     transition: opacity .2s ease-in-out;
     opacity: 0;
     border-radius: 48px;
+    -webkit-filter: blur(8px);
+    -webkit-animation: glowing 12s linear infinite;
+    -webkit-transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -ms-transition: opacity .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -ms-border-radius: 48px;
+    -o-border-radius: 48px;
 }
 
 @keyframes glowing {
@@ -396,6 +414,7 @@ body {
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.4);
     align-items: center;
+    margin-bottom: 1.5rem; /* Espace en dessous de chaque paragraphe */
     padding: 450px;
 }
 
