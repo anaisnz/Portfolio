@@ -696,7 +696,10 @@ body {
 }
 
 .github{
-    z-index: 10;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.726);
+    font-size: 1.5rem;
+    z-index: 10;    
 }
 
 .cv{
