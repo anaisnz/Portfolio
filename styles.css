@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -296,13 +297,246 @@ body {
     margin: 10px;
 }
 
+/* réalisations */
+
+/* Conteneur principal pour placer les deux sections côte à côte */
+/*
+#realisation1 {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between; /* espace entre les deux */ /*
+    align-items: flex-start; /* alignement vertical en haut */ /*
+    gap: 2rem;
+    box-sizing: border-box;
+    width: 100%;
+}*/
+
+/*
+
+.titrerea1{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.infostage1{
+    color: white;
+    font-size:1.4rem;
+
+}
+
+.infostage{
+    font-size: 1.2rem;
+  white-space: nowrap;
+  overflow-x: auto;
+} */
+
+  /* Ajustements pour chaque section */ /*
+  #realisation, #competence1 {
+    flex: 1; /* prend chacun la moitié disponible */* /*
+  } 
+  
+  /* Optionnel : tu peux forcer une largeur max si besoin */ /*
+  #realisation {
+    max-width: 50%;
+  }
+
+  .rea {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+  }
+
+  .imgrea1{
+    text-align: center;  
+}
+
+  #competence1 {
+    max-width: 50%;
+  } 
+  
+  .headingss{
+    font-family: "Cinzel", serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #ffffffb5;
+    text-align: center;
+  } */
+
+
+
+
+
+
+
+  .realisation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Pour gérer le responsive */
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .bloc-gauche {
+    flex: 1;
+    max-width: 40%;
+  }
+  
+  .bloc-droit {
+    flex: 1;
+    max-width: 60%;
+  }
+  
+  .icon-loc {
+    width: 16px;
+    height: auto;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  .infostage {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: left;
+    font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: white;
+  }
+
+  .imgrea1{
+    text-align: center;
+  }
+
+  
+  .headingss{
+    text-align: center;
+    color: white;
+    font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.6rem;
+  }
+
+  .titrerea1{
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.4rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    vertical-align: top;
+    text-align: left;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.3rem;
+  }
+  
+  th {
+    background-color: #ffffff3f;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  caption {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+  
+    th {
+      position: sticky;
+      top: 0;
+      background-color: #ffffff8f;
+    }
+  
+    td {
+      margin-bottom: 10px;
+    }
+  
+    td::before {
+      content: attr(data-label);
+      font-weight: bold;
+      display: block;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Section projets */
 
 #projets {
     display: flex;
     flex-direction: column;
-    padding: 55px 0;
-    padding: 80px;
+
     color: rgba(255, 255, 255, 0.591);
     align-items: center;
     background-color: rgba(0, 0, 0, 0.4);
@@ -415,7 +649,7 @@ body {
     background-color: rgba(0, 0, 0, 0.4);
     align-items: center;
     margin-bottom: 1.5rem; /* Espace en dessous de chaque paragraphe */
-    padding: 450px;
+    padding: 300px;
 }
 
 #contact h1{
@@ -455,6 +689,17 @@ body {
 }
 
 .linkedin{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.726);
+    font-size: 1.5rem;
+    z-index: 10;
+}
+
+.github{
+    z-index: 10;
+}
+
+.cv{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.726);
     font-size: 1.5rem;
